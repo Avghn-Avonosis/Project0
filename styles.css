@@ -1,0 +1,82 @@
+form {
+    position: relative; left: 300px; top: 230px;
+    
+   }
+  input{
+    font-size: large;
+    font-family: monospace;
+    padding: 5px;
+    color: rgb(111, 30, 187);
+    position: relative; left: -275px; top: -220px;
+    margin: 8px;
+    border-width: 2px;
+    border-end-end-radius: 10px;
+    width: 40%;
+  }
+h2{
+    color: aliceblue;
+    border-bottom: 2px solid darkslategrey;
+}
+#adv_button{
+    background-color: blue;
+    font-family: monospace;
+    color: aliceblue;
+    padding: 4px;
+    width: 15%;
+    border-radius: 0%;
+    position: relative; left: 100px;
+}
+h3 {
+    color: aliceblue;
+}
+ button{
+    font-family: monospace;
+    padding: 5px;
+    color: rgb(111, 30, 187);
+    position: relative;top: -30px; left: 1010px;
+    margin: 3px;
+    text-decoration: none;
+}
+.lucky{
+    width: 20%;
+    padding: 10px;
+    position: relative; left: -570px; top: 59.5px;
+    border-radius: 0;
+
+}
+ .corner{
+    position: relative;left: -580px;top: 60px;
+    padding: 10px;
+    width: 15%;
+    border-radius: 0;
+ }
+ .round {
+    width: 50%;
+    border-radius: 15px;
+    border: 1.75px solid darkslategray;
+    padding: 5px 5px 5px 25px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+body{
+    background-color: indianred;
+    margin: 2px;
+}
+a:-webkit-any-link{
+    text-decoration: none;
+}
+
+.corner:hover{
+    text-decoration: underline solid darkorchid;
+    transition: 0.25s;
+}
+.lucky:hover{
+    text-decoration: underline solid darkorchid;
+    transition: 0.25s;
+}
+#adv_button:hover{
+    text-decoration: underline solid white;
+    transition: 0.25s;
+}
